@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Luke Nguyen</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Audiowide&family=Imperial+Script&family=Just+Another+Hand&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Questrial&family=Rubik+Glitch&family=Sedgwick+Ave+Display&family=Zen+Dots&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-grid">
+      <a href="index.html" class="brand">
+        <span class="brand-text">Nguyen Creations</span>
+        <img src="logo/logo.png" alt="Logo" class="brand-logo" />
+      </a>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="primaryNav">☰</button>
+      <nav id="primaryNav" class="nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="container">
+    <section class="intro">
+      <h1>Contact</h1>
+      <p>Let’s work together! Reach me via email or the form below.</p>
+    </section>
+
+    <section>
+      <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" rows="6" placeholder="Your message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+      <p class="muted" style="margin-top:1rem;">Or email me directly:
+        <a href="mailto:ntpnambusiness@gmail.com">ntpnambusiness@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>Luke Nguyen</h3>
+        <p class="muted">Freelance Artist & Graphic Designer</p>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: <a href="mailto:ntpnambusiness@gmail.com">ntpnambusiness@gmail.com</a></li>
+          <li>WhatsApp: <a href="https://wa.me/84915625367" target="_blank">+84 91562 53 67</a></li>
+          <li>Phone: <a href="tel:+84915625367">+84 91562 53 67</a></li>
+          <li>Facebook: <a href="https://www.facebook.com/nguyen.thai.phuong.nam" target="_blank">facebook.com/nguyen.thai.phuong.nam</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow</h4>
+        <div class="social-links">
+          <a href="hhttps://www.facebook.com/nguyen.thai.phuong.nam" target="_blank">Facebook</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Youtube</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Luke Nguyen — Made with HTML · CSS · JS</p>
+    </div>
+  </footer>
+</body>
+
+</html>

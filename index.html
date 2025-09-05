@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Luke Nguyen's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/favicon.png" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Audiowide&family=Imperial+Script&family=Just+Another+Hand&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Questrial&family=Rubik+Glitch&family=Sedgwick+Ave+Display&family=Zen+Dots&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-grid">
+      <a href="index.html" class="brand">
+        <span class="brand-text">Nguyen Creations</span>
+        <img src="logo/logo.png" alt="Logo" class="brand-logo" />
+      </a>
+
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="primaryNav">☰</button>
+      <nav id="primaryNav" class="nav" role="navigation">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="main">
+    <!-- HERO -->
+    <!-- <section class="hero">
+      <div class="hero-bg">
+        <img src="images/2d-meet-3d.png" alt="Showcase artwork" class="hero-slide active" />
+
+        <div class="overlay"></div>
+      </div> -->
+
+    <div class="container hero-content hero-container">
+      <h1>LUKE</h1>
+      <p class="lead">Freelance Artist & Graphic Designer. Characters, abstract arts, and design work.</p>
+    </div>
+
+    <!-- SELECTED WORKS -->
+    <section class="preview container">
+      <h2>Selected Works</h2>
+      <div class="grid-grid">
+        <article class="card gallery-item">
+          <img src="images/food-hierarchy.png" alt="" data-caption="" />
+          <h3>The Prey and The Predator</h3>
+          <p class="muted">Who is truly who?</p>
+        </article>
+
+        <article class="card gallery-item">
+          <img src="images/reflection.png" alt="" data-caption="" />
+          <h3>Ruined City</h3>
+          <p class="muted">Peaceful, isn't it?</p>
+        </article>
+
+        <article class="card gallery-item">
+          <img src="images/negativespace.png" alt="" data-caption="Negative" />
+          <h3>Negative</h3>
+          <p class="muted">What do you see?</p>
+        </article>
+      </div>
+      <div class="hero-cta">
+        <a class="btn" href="gallery.html">View Gallery</a>
+        <a class="btn ghost" href="projects.html">See Projects</a>
+      </div>
+    </section>
+
+    <!-- ABOUT ME -->
+    <section class="about container">
+      <h2>About me</h2>
+      <p>Hi! I’m Luke Nguyen, a freelance artist and designer based in Vietnam. I specialize in character design, and
+        visual storytelling. I’m passionate about mixing traditional artistry with modern digital tools
+        to create unique visuals. Whether it’s commissions, collaborations, or studio projects, I bring creativity and
+        dedication to every piece of work. Currently a student at RMIT Vietnam.</p>
+
+    </section>
+
+    <!-- SOFTWARE EXPERIENCE -->
+    <section class="skills container">
+      <h2>Software Experience</h2>
+      <ul class="experience-list">
+        <li class="high">
+          <h3><strong>Krita</strong></h3>
+          <p>4+ years</p>
+        </li>
+        <li class="medium">
+          <h3><strong>Photoshop</strong></h3>
+          <p>1 year</p>
+        </li>
+        <li class="medium">
+          <h3><strong>Illustrator</strong></h3>
+          <p>1 year</p>
+        </li>
+        <li class="medium">
+          <h3><strong>InDesign</strong></h3>
+          <p>1 year</p>
+        </li>
+        <li class="low">
+          <h3><strong>Blender</strong></h3>
+          <p>8 months</p>
+        </li>
+        <li class="low">
+          <h3><strong>Figma</strong></h3>
+          <p>6 months</p>
+        </li>
+      </ul>
+    </section>
+        </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+      <div class="container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-list">
+          <div class="education-item">
+            <h3>Royal Melbourne Institute of Technology</h3>
+            <p class="muted">Digital Media, Bachelor of Design (2024 - Present)</p>
+            <h3>Nguyen Quang Dieu High School for the Gifted</h3>
+            <p class="muted">Student (2021 - 2024)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+ </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="Expanded artwork">
+    <p id="lightbox-caption" class="muted" style="text-align:center; margin-top:1rem;"></p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>Luke Nguyen</h3>
+        <p class="muted">Freelance Artist & Graphic Designer</p>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: <a href="mailto:ntpnambusiness@gmail.com">ntpnambusiness@gmail.com</a></li>
+          <li>WhatsApp: <a href="https://wa.me/84915625367" target="_blank">+84 91562 53 67</a></li>
+          <li>Phone: <a href="tel:+84915625367">+84 91562 53 67</a></li>
+          <li>Facebook: <a href="https://www.facebook.com/nguyen.thai.phuong.nam" target="_blank">facebook.com/nguyen.thai.phuong.nam</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow</h4>
+        <div class="social-links">
+          <a href="hhttps://www.facebook.com/nguyen.thai.phuong.nam" target="_blank">Facebook</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Youtube</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Luke Nguyen — Made with HTML · CSS · JS</p>
+    </div>
+  </footer>
+</body>
+</html>

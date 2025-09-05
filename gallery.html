@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery – Luke Nguyen</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Audiowide&family=Imperial+Script&family=Just+Another+Hand&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Permanent+Marker&family=Questrial&family=Rubik+Glitch&family=Sedgwick+Ave+Display&family=Zen+Dots&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div id="loading">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-grid">
+      <a href="index.html" class="brand">
+        <span class="brand-text">Nguyen Creations</span>
+        <img src="logo/logo.png" alt="Logo" class="brand-logo" />
+      </a>
+      <button id="menuToggle" class="menu-toggle" aria-expanded="false" aria-controls="primaryNav">☰</button>
+      <nav id="primaryNav" class="nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main class="container">
+    
+    <div class="container hero-content">
+      <h1>Gallery</h1>
+    </div>
+
+    <section class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/2d-meet-3d.png" alt="2d meets 3d"
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/courage.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/food-hierarchy.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/happiness.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/lost-souls.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/negativespace.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/reflection.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/tree.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/abstract.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/bomberworm.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/advert1.png" alt=""
+          data-caption="" />
+      </div>
+      <div class="gallery-item">
+        <img src="images/start-screen.png" alt=""
+          data-caption="" />
+      </div>
+      <!-- Artworks with data caption -->
+    </section>
+  </main>
+
+  <!-- Lightbox -->
+  <div id="lightbox">
+    <span class="close">&times;</span>
+    <img id="lightbox-img" src="" alt="Expanded artwork">
+    <p id="lightbox-caption" class="muted" style="text-align:center; margin-top:1rem;"></p>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <h3>Luke Nguyen</h3>
+        <p class="muted">Freelance Artist & Graphic Designer</p>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: <a href="mailto:ntpnambusiness@gmail.com">ntpnambusiness@gmail.com</a></li>
+          <li>WhatsApp: <a href="https://wa.me/84915625367" target="_blank">+84 91562 53 67</a></li>
+          <li>Phone: <a href="tel:+84915625367">+84 91562 53 67</a></li>
+          <li>Facebook: <a href="https://www.facebook.com/nguyen.thai.phuong.nam" target="_blank">facebook.com/nguyen.thai.phuong.nam</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Follow</h4>
+        <div class="social-links">
+          <a href="hhttps://www.facebook.com/nguyen.thai.phuong.nam" target="_blank">Facebook</a>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank">Youtube</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Luke Nguyen — Made with HTML · CSS · JS</p>
+    </div>
+  </footer>
+</body>
+
+</html>
